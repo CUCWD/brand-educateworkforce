@@ -1,6 +1,29 @@
 // This file is included after all of Bootstrap. Any customization that can't
 // be made using variable definitions should be done here.
 
+// Sticky Footer
+// https://discuss.openedx.org/t/sticky-footer-mfe-learning-page-loading/12721/4
+
+// Learning, Account, Gradebook
+#root > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+// Profile only
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  & > main {
+    flex-grow: 1;
+  }
+}
 
 // Instructor Toolbar
 
