@@ -59,8 +59,13 @@ $green:   #0D7D4D !default;
 //   $colors
 // );
 
+$brand-ew-blue: #1f6078 !default;   // EducateWorkforce Blue
+$brand-ew-green: #85c299 !default;  // EducateWorkforce Green
+$brand-ew-brown: #655b52 !default;  // EducateWorkforce Brown
+$brand-ew-gray: #48565d !default;   // EducateWorkforce Gray
+$brand-ew-red: #c44938 !default;    // EducateWorkforce Red
 $primary: #00262B !default; // elm
-$brand: #D23228 !default;
+$brand: $brand-ew-red !default;
 $success: $green !default;
 $info: $blue !default;
 $danger: $red !default;
@@ -416,7 +421,7 @@ $caret-spacing:               $caret-width * 1 !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Inter", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif:      "Roboto", "Inter", "Helvetica Neue", Arial, sans-serif !default;
 $font-family-monospace:       "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-serif:           $font-family-sans-serif !default;
 // $font-family-base:            $font-family-sans-serif !default;
