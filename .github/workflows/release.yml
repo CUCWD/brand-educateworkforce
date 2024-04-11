@@ -4,6 +4,8 @@ on:
     branches:
       - master
       - alpha
+      - develop/nutmeg.master
+      - develop/maple.3
   release:
     types: [created]
 
