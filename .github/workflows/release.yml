@@ -4,7 +4,9 @@ on:
     branches:
       - master
       - alpha
-      - develop/nutmeg.master
+  release:
+    types: [created]
+
 jobs:
   release:
     name: Release
