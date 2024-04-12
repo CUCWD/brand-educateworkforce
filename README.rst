@@ -1,5 +1,5 @@
 ==================
-@edx/brand-edx.org
+@cucwd-prod/brand-educateworkforce
 ==================
 
 This project contains branding assets and themes for edx.org. It is the edX implementation of the branding interface defined in `@edx/brand-openedx <https://git@github.com/edx/brand-openedx>`_. Note that we aim to avoid introducing any breaking changes.
@@ -15,13 +15,13 @@ Versioned with npm. Including this project this way will allow you to control th
 
 .. code-block:: bash
 
-  npm install --save @edx/brand@npm:@edx/brand-edx.org
+  npm install --save @edx/brand@npm:@cucwd-prod/brand-educateworkforce
 
 Unversioned with Github. Including this project this way will pull in the latest version of it whenever a project's requirements are installed. This alleviates the need to manually pull in updates. The draw back is that if a breaking change is inadvertently introduced it is likely to gum up your pipeline or create a visual bug.
 
 .. code-block:: bash
 
-  npm install --save @edx/brand@git+https://git@github.com/edx/brand-edx.org#master
+  npm install --save @edx/brand@git+https://git@github.com/CUCWD/brand-educateworkforce#master
 
 Import assets from this package in a consuming node application:
 
